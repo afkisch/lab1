@@ -1,3 +1,4 @@
+/* Orajelosztas es a leoszott orajel felfuto, lefuto elenek jelzese*/
 `timescale 1ns / 1ps
 
 module clk_div(
