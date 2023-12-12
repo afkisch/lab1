@@ -1,3 +1,9 @@
+/* A hálózat egy futófényt (knight rider) valósít meg. A BTN0 gomb hatására (reset jel) csak a jobb
+oldali LD0 LED világít, majd a gomb elengedésekor a fény másodperces ütemezéssel balra shiftelődik. A
+ledsor két végére érve a futási irány megfordul. A hálózat órajele az FPGA panel 16 MHz-es órajele. A
+shiftelést egy másodpercenként érkező, 1 órajel szélességű engedélyező jel ütemezi. Ezt a jelet is a hálózat
+állítja elő. */
+
 `timescale 1ns / 1ps
 
 module knight(
